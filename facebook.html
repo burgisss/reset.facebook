@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>System Access</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="loginPage">
+  <h2 class="hackText">SYSTEM ACCESS</h2>
+  <input id="nameInput" type="text" placeholder="ENTER NAME">
+  <button onclick="login()">LOGIN</button>
+</div>
+
+<!-- BIRTHDAY PAGE -->
+<div id="birthdayPage">
+  <div class="rainbow">
+    <h1 id="birthdayName"></h1>
+  </div>
+
+  <div class="cake-container">
+    <div class="cake">
+      <div class="icing-top"></div>
+      <div class="ribbon"></div>
+
+      <div class="candles">
+        <div class="candle"><div class="flame"></div></div>
+        <div class="candle"><div class="flame"></div></div>
+        <div class="candle"><div class="flame"></div></div>
+      </div>
+
+      <div class="face-doodle">
+  <div class="eyes-row">
+    <div class="eye left-eye"></div>
+    <div class="eye right-eye"></div>
+  </div>
+  <div class="mouth"></div>
+</div>
+      <div class="sprinkles"></div>
+    </div>
+  </div>
+
+  <canvas id="confetti"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
